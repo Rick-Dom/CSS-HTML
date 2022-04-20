@@ -29,7 +29,7 @@ p{
 .cabecalho{
     width: 100%;
     padding: 18px 8%;
-    background-color: #4A508A;
+    background: radial-gradient(#4A508A, #2b2f53);
     float: left;
 }
 
@@ -54,7 +54,6 @@ p{
     width: 84%;
     float: left;
     padding: 15px 10px;
- 
 }
 
 /*botao*/
@@ -63,8 +62,31 @@ margin-left: 2%;
 width: 14%;
 float: right;
 padding: 15px 10px;
-background-color: #2b2f53;
+background-color: #1f223b;
 color: aliceblue;
 cursor: pointer;
 }
 
+
+/*MENU*/
+.menu{
+    width: 100%;
+    float: left;
+    background-color: #1f223b;
+    ;
+    padding: 18px 3%;
+}
+
+/*colocando a linda na lateral*/
+.menu li{
+    float: left;
+}
+
+.menu li a{
+    color: #9d9d9d;
+    margin-right: 25px;
+}
+
+.menu li a:hover{
+    color: rgb(255, 255, 255);
+}
