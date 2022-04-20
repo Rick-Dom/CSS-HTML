@@ -6,24 +6,19 @@
     box-sizing: border-box;
     border: none;
 }
-
 img{
     max-width: 100%;
 }
-
 ul{
     list-style: none;
 }
-
 a{
     text-decoration: none;
 }
-
 h1{
     font-size: 1.5em;
     color: #333;
 }
-
 p{
     font-size: 1em;
     color: #777;
@@ -31,3 +26,45 @@ p{
 
 
 /* CABEÇALHO */
+.cabecalho{
+    width: 100%;
+    padding: 18px 8%;
+    background-color: #4A508A;
+    float: left;
+}
+
+/*logo*/
+.logo a{
+   width: 125px;
+   height: 70px;
+   float: left;
+   background: url(../img/logo.png) no-repeat;
+   font-size: 0;
+}
+
+/*forms*/
+.cabecalho form{
+    margin-top: 15px;
+    width: 30%;
+    float: right;
+}
+
+/*input*/
+.cabecalho input[type="text"]{
+    width: 84%;
+    float: left;
+    padding: 15px 10px;
+ 
+}
+
+/*botao*/
+.cabecalho button{
+margin-left: 2%;
+width: 14%;
+float: right;
+padding: 15px 10px;
+background-color: #2b2f53;
+color: aliceblue;
+cursor: pointer;
+}
+
