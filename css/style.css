@@ -54,7 +54,8 @@ p{
     width: 84%;
     float: left;
     padding: 15px 10px;
-
+    filter: drop-shadow(2px 2px 5px #1f223b);
+    border-radius: 5px 0 0 5px;
 }
 
 /*botao*/
@@ -66,6 +67,7 @@ padding: 15px 10px;
 background-color: #1f223b;
 color: aliceblue;
 cursor: pointer;
+border-radius: 0 5px 5px 0;
 }
 
 .cabecalho button:hover{
@@ -82,7 +84,7 @@ cursor: pointer;
     padding: 18px 5.5%;
 }
 
-/*colocando a linda na lateral*/
+/*colocando a linha na lateral*/
 .menu li{
     float: left;
 }
@@ -97,4 +99,20 @@ cursor: pointer;
     font-size: large;
     height: 60;
 
+}
+
+/*social icons*/
+.social-icons{
+    float: right;
+    margin-right: 2.5%;
+}
+
+.social-icons a{
+    color:  #9d9d9d;
+    float: left;
+    margin-left: 12px;
+}
+
+.social-icons a:hover{
+    color: aliceblue;
 }
