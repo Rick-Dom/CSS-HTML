@@ -15,7 +15,7 @@ ul{
 a{
     text-decoration: none;
 }
-h1{
+h1, h2{
     font-size: 1.5em;
     color: #333;
 }
@@ -116,3 +116,34 @@ border-radius: 0 5px 5px 0;
 .social-icons a:hover{
     color: aliceblue;
 }
+
+/*principal*/
+.principal{
+    width: 100%;
+    float: left;
+    padding: 20px 8%;
+}
+
+.sobre{
+    width: 70%;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+.sobre h2{
+   margin-bottom: 15px; 
+}
+
+.sobre img{
+    width: 50%;
+    float: left;
+    margin: 0 15px 15px 0;
+}
+
+.sobre p{
+    text-align: justify;
+
+}
+
+
+
