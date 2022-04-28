@@ -227,6 +227,34 @@ border-radius: 0 5px 5px 0;
 
 .newsletter form button:hover{
     filter: drop-shadow(10px 10px 5px #1f223b);
-    background-color: #4A508A;
+    background: radial-gradient(#4A508A, #2b2f53);
     color: #fff;
+}
+
+
+/*rodape*/
+.rodape{
+    width: 100%;
+    float: left;
+    padding: 20px 8%;
+    background: radial-gradient(#4A508A, #2b2f53);
+}
+
+.rodape p{
+    color: #fff;
+}
+
+/*scroll bar*/
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #2b2f53;
+    border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #f9fcdc;
+    border-radius: 0px;
 }
